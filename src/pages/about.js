@@ -19,7 +19,7 @@ const about = () => {
       <main className='flex w-full flex-col items-center justify-center dark:text-light max-w-7xl mx-auto'>
         <Layout className='pt-16'>
           <AnimatedText
-            text='About Jin'
+            text='About Sarthak'
             className='mb-16 xl:!text-7xl lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8'
           />
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
@@ -62,7 +62,7 @@ const about = () => {
               <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[1.5rem] bg-dark dark:bg-light' />
               <Image
                 src={profilePic}
-                alt='Jinventor'
+                alt='Sarthakventor'
                 className='w-full h-auto rounded-2xl'
                 priority
                 sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'

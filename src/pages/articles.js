@@ -97,7 +97,7 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>Jinventor | Articles Page</title>
+        <title>Sarthaknventor | Articles Page</title>
         <meta name='description' content='any description' />
       </Head>
 
