@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
-import profilePic from '../../public/images/profile/pic-2.png';
+import profilePic from '../../public/images/profile/pic-3.png';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
@@ -12,7 +12,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Jinventor | About Page</title>
+        <title>SARTHAKInventor | About Page</title>
         <meta name='description' content='any description' />
       </Head>
 
@@ -28,11 +28,19 @@ const about = () => {
                 Biography
               </h2>
               <p className='font-medium'>
-                I have over 10 years of experience in chemical engineering and
-                completed my PhD research on lithium-ion battery technology.
-                Despite my background, I always had a strong interest in
-                software engineering but wasn't sure where to start. In 2022, I
-                decided to pursue my passion and become a full-stack developer.
+              I am a passionate full-stack developer with a B.Tech in Information Technology from 
+              VIT Vellore and over one year of professional experience. My journey into the world 
+              of software engineering began with a strong interest in technology, which eventually 
+              led me to transition from my initial studies and experiences into full-stack development.
+              In 2022, I decided to follow my passion for software engineering and embarked on a journey 
+              to become a full-stack developer. Since then, I have worked on various projects, honing my skills in both front-end and back-end technologies. My expertise includes [mention specific technologies or frameworks you are proficient in, e.g., React, Node.js, etc.].
+
+              Through my work, I strive to create efficient, scalable, and user-friendly applications. 
+              I am constantly exploring new technologies and methodologies to enhance my skill set and 
+              deliver the best possible solutions.
+
+              Thank you for visiting my website. Feel free to explore my projects and get in touch with 
+              me if you'd like to collaborate or learn more about my work.
               </p>
               <p className='my-4 font-medium '>
                 As a full-stack developer, I'm dedicated to creating innovative
